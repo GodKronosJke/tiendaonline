@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laptops</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        .product {
+            background-color: #f2f2f2;
+            border: 1px solid #ddd;
+            margin: 10px;
+            padding: 15px;
+            width: calc(33.33333% - 20px);
+            position: relative;
+        }
+
+        .product h2 {
+            margin-top: 0;
+        }
+
+        .product p {
+            margin-bottom: 0;
+        }
+
+        .highlight {
+            color: #57b846;
+        }
+
+        .price {
+            font-size: 1.5em;
+            font-weight: bold;
+        }
+
+        .save {
+            background-color: #57b846;
+            border-radius: 5px;
+            color: white;
+            padding: 5px;
+            text-align: center;
+            width: 100%;
+        }
+
+        summary {
+            cursor: pointer;
+        }
+
+        details {
+            overflow-y: auto;
+            max-height: 200px;
+        }
+
+        .cart-icon {
+            background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M458.2 35.1c-11.8-11.8-31.2-11.8-43 0l-160 160c-11.8 11.8-11.8 31.2 0 43s31.2 11.8 43 0L351 101c11.8-11.8 11.8-31.2 0-43zM15.8 386.1c-11.8 11.8-11.8 31.2 0 43s31.2 11.8 43 0L199 242.9c11.8-11.8 11.8-31.2 0-43L102.2 59.1c-11.8-11.8-31.2-11.8-43 0s-11.8 31.2 0 43L242 199 59.1 405.2c-11.8 11.8-11.8 31.2 0 43s31.2 11.8 43 0L15.8 386.1z"/></svg>');
+            background-repeat: no-repeat;
+            background-position: center right 15px;
+            background-size: 20px;
+            padding-right: 30px;
+            position: absolute;
+            top: 15px;
+            right: 15px;
+            font-size: 1.2em;
+            line-height: 2em;
+        }
+
+        .cart {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="product">
+        
+         
+            <div class="container">
+                <div class="product">
+                    <h2>ROG Zephyrus Duo 16 (202)
+                </div>
+                
+            </div>
